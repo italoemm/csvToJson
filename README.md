@@ -12,18 +12,22 @@ Gostei do teste! Não diria que foi dificil diria que foi desafiador, no começo
 
 
 # PENSAMENTO LOGICO SIMPLES PARA EFETUAR CODIGO:
-
-•	Efetuar um input do CSV
-•	Dividirá as colunas do cabecalho e registros de acordo cada ",".
-•	A função tratarCabecalho() validará e irá garantir com que a estrutra do cabecalho não mude, ou seja, o cabecalho que contenha virgula dentro das aspas será mantido.
-•	A função concatenarSala() validará e concatenará todas registro que contenha "sala" em apenas 1 coluna mesmo que o proximo registro fosse pertencente da outra coluna "class" 
-•	Nas linhas (registros), sera validado cada palavra  e removera os caracteres especial.
-•	Apos os registros e as colunas formatados serão concatenados em um vetor.
-  o	Cabecalho sendo a Key do vetor "Objetos" e as linhas correspondendo aos valores de cada key.
-
-•	As palavras do cabecalho que contenham "phone" ou "email" serão separados, transformados em vetor e guardados dentro de outro vetor formando assim uma matriz.
-  o	"email Resposavel, Pai, Estoque"   -> Matriz "pEmail"[ [email,Responsavel, Pai, Estoque],[],[]...]
-
+<ul>
+<li>•	Efetuar um input do CSV </li>
+<li>•	Dividirá as colunas do cabecalho e registros de acordo cada ",".
+<li>•	A função tratarCabecalho() validará e irá garantir com que a estrutra do cabecalho não mude, ou seja, o cabecalho que contenha virgula dentro das aspas será mantido.
+<li>•	A função concatenarSala() validará e concatenará todas registro que contenha "sala" em apenas 1 coluna mesmo que o proximo registro fosse pertencente da outra coluna "class" 
+<li>•	Nas linhas (registros), sera validado cada palavra  e removera os caracteres especial.
+<li>•	Apos os registros e as colunas formatados serão concatenados em um vetor. l
+<ul>
+ <li> o	Cabecalho sendo a Key do vetor "Objetos" e as linhas correspondendo aos valores de cada key.</li>
+</ul>
+</li>
+<li>•	As palavras do cabecalho que contenham "phone" ou "email" serão separados, transformados em vetor e guardados dentro de outro vetor formando assim uma matriz. l
+<ul>
+<li> o	"email Resposavel, Pai, Estoque"   -> Matriz "pEmail"[ [email,Responsavel, Pai, Estoque],[],[]...]</li>
+<ul>
+</li>
 •	Sera verificado se a key (cabeçalho) do vetor "Objetos"  é igual algum dos registros da minha matriz, logo eu apenas atribui para a variavel "tag" o vetor da matriz correspondente. 
   o	Tambem sera inserido o valor do objeto atual a variavel "address", esse processo sera efetuado dentro do loop
     	Assim eu consiguirá deixar o cabecalho dinamico exemplo "email, Responsavel, Pai" ou "email, Responsavel, Vó, Contabilidade".
