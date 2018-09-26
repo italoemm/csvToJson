@@ -1,17 +1,17 @@
 # csvToJson
 
-#Como iniciar
+# Como iniciar
 <ul>
   <li>Download Projeto</li>
   <li>Dentro da pasta onde foi salvado o arquivo "digite no Terminal" NPM install</li>
   <li>E apos digite NPM start e será executado</li>
 </ul>
 
-#OBSERVACAO PROPRIO:
+# OBSERVACAO PROPRIO:
 Gostei do teste! Não diria que foi dificil diria que foi desafiador, no começo eu até pensei ingenuamente "Ah deve ser simples, separar o cabecalho e usar como key em vetor e concatenar com os demais registros do csv e converter para json". No entanto, a maneira na qual deveria ser o output do json, me fez sentir desafiado, pois o csv contia colunas com mesmo nome onde deveria ser concatenados, usuarios que tinha o mesmo registro (nome e ID) onde tambem deveria ser concatenados, registro onde deveriam ser validados e colunas com mais de um nome, contendo virgula dentro e aspas simbolizando que é uma coluna, alem de que algumas colunas poderia conter mais criterios, ou seja, elas deveriam ser dinamicas com possibilidade de mudança no cabeçalho.
 
 
-#PENSAMENTO LOGICO SIMPLES PARA EFETUAR CODIGO:
+# PENSAMENTO LOGICO SIMPLES PARA EFETUAR CODIGO:
 
 •	Efetuar um input do CSV
 •	Dividirá as colunas do cabecalho e registros de acordo cada ",".
